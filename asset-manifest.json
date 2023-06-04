@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/poorvi-sharma-portfolio/static/css/main.78a7bbee.css",
-    "main.js": "/poorvi-sharma-portfolio/static/js/main.36bdb56a.js",
+    "main.css": "/poorvi-sharma-portfolio/static/css/main.e14cad5e.css",
+    "main.js": "/poorvi-sharma-portfolio/static/js/main.bbe77471.js",
     "static/media/about-bg.jpg": "/poorvi-sharma-portfolio/static/media/about-bg.ac37db63bbda2d69bc87.jpg",
     "static/media/text-bg.png": "/poorvi-sharma-portfolio/static/media/text-bg.e628339e4faacbbd8697.png",
     "static/media/backgproj.webp": "/poorvi-sharma-portfolio/static/media/backgproj.a2634f32b904e826c4df.webp",
     "index.html": "/poorvi-sharma-portfolio/index.html",
-    "main.78a7bbee.css.map": "/poorvi-sharma-portfolio/static/css/main.78a7bbee.css.map",
-    "main.36bdb56a.js.map": "/poorvi-sharma-portfolio/static/js/main.36bdb56a.js.map"
+    "main.e14cad5e.css.map": "/poorvi-sharma-portfolio/static/css/main.e14cad5e.css.map",
+    "main.bbe77471.js.map": "/poorvi-sharma-portfolio/static/js/main.bbe77471.js.map"
   },
   "entrypoints": [
-    "static/css/main.78a7bbee.css",
-    "static/js/main.36bdb56a.js"
+    "static/css/main.e14cad5e.css",
+    "static/js/main.bbe77471.js"
   ]
 }
