@@ -1,0 +1,20 @@
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.main-footer {
+  background-color: #d4c5e4;
+  margin-top: 0;
+  color: #933469;
+  margin-bottom: 0%;
+}
+h6 {
+  font-weight: lighter;
+}
+.num {
+  letter-spacing: 1px;
+  color: #933469;
+  margin-left: 0%;
+  text-align: left;
+}

@@ -1,0 +1,37 @@
+.resume_div {
+  /* border: 2px solid red; */
+  text-align: right;
+  padding: 10%;
+  height: fit-content;
+  margin: 0 0 0 0;
+  background-color: #f8f4fb;
+  height: 70vh;
+  overflow: hidden;
+}
+
+.resume_text a {
+  background-image: url("./../../public/images/text-bg.png");
+  background-repeat: repeat-y;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 100px;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Steelfish Rg", "helvetica neue", helvetica, arial, sans-serif;
+  font-weight: 800;
+  -webkit-font-smoothing: antialiased;
+  /* z-index: 33; */
+}
+
+.resume_text {
+  width: fit-content;
+  transition: scale 0.5s;
+  /* border: solid red; */
+  box-sizing: border-box;
+  height: 18vh;
+}
+
+.resume_text:hover {
+  scale: 0.9;
+}

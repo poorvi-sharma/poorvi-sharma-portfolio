@@ -1,0 +1,36 @@
+.navbardiv {
+  background-color: #997fb8;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+
+.navtitle {
+  color: #f8f4fb;
+  font-family: "Pacifico", cursive;
+  font-size: 4vh;
+  transition: color 0.5s ease;
+}
+.navtitle:hover {
+  color: purple;
+}
+
+.ull {
+  margin-left: 65%;
+  margin-right: 0%;
+  float: right;
+}
+
+.col1 {
+  margin-left: 2vw;
+}
+.hove {
+  color: #f8f4fb;
+  font-weight: 900;
+  font-size: larger;
+  transition: all 0.5s ease;
+}
+.hove:hover {
+  letter-spacing: 0.4vw;
+  text-decoration: none;
+  color: purple;
+}

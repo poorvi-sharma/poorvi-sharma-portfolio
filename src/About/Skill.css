@@ -1,0 +1,118 @@
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+.skills_div {
+  margin-left: 5vw;
+}
+
+.skills_cloud {
+  margin-top: 30vh;
+  /* border: 2px solid black; */
+  display: flex;
+  flex-direction: row;
+}
+
+.cloud {
+  margin-top: 10vh;
+  /* margin-left: 10vw; */
+  width: 30vw;
+  height: 20vh;
+  background: #471566;
+  box-shadow: rgba(104, 187, 239, 0.25) 0px 50px 100px -20px,
+    rgba(86, 89, 232, 0.644) 0px 30px 60px -30px,
+    rgba(5, 95, 184, 0.584) 0px -2px 6px 0px inset;
+  border-radius: 100px;
+  position: relative;
+}
+.cloud::after,
+.cloud::before {
+  content: "";
+  position: relative;
+  display: inline-block;
+  background: inherit;
+  border-radius: inherit;
+}
+.cloud::after {
+  width: 10vw;
+  height: 20vh;
+  top: -10vh;
+  left: -4vw;
+}
+.cloud::before {
+  width: 11vw;
+  height: 20vh;
+  top: -15vh;
+  left: 15vw;
+}
+
+.skill_heading {
+  position: relative;
+  z-index: 99;
+  margin: 15vh 0 0 -20vw;
+  text-transform: uppercase;
+  letter-spacing: 1vw;
+  color: aliceblue;
+}
+
+.skills_drop {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 50%;
+  margin-left: 5vw;
+  /* border: 2px solid red; */
+}
+
+.drop {
+  margin: 18vh 0 0 3vw;
+  width: 8vw;
+  height: 17vh;
+  background-color: #ccc;
+  border-radius: 90%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding-top: 2%;
+}
+
+.drop {
+  display: inline-block;
+  background: #ecdbf9d8;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  color: #0f0;
+  box-shadow: inset 10px 10px 10px rgba(0, 0, 0, 0.05),
+    15px 25px 10px rgba(0, 0, 0, 0.1), 15px 20px 20px rgba(0, 0, 0, 0.05),
+    inset -10px -10px 15px #f5edfb;
+}
+.drop:before {
+  content: "";
+  position: absolute;
+  top: -81%;
+  left: 50%;
+  border: 42px solid transparent;
+  border-bottom: 62px solid #ecdbf9d8;
+  transform: translateX(-50%);
+}
+
+.drop img {
+  position: relative;
+  height: 80%;
+  width: 80%;
+}
+
+.pond {
+  width: 50%;
+  display: block;
+  height: 5vh;
+  background-color: #471566;
+  margin-left: 5vw;
+  border-radius: 50%;
+  margin-top: -2vh;
+  background-image: radial-gradient(#fff, #82569d, #471566);
+}

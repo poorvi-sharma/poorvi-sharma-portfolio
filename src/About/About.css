@@ -1,0 +1,59 @@
+html {
+  font-family: "Montserrat", Arial, sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+.about {
+  background-color: #f8f4fb;
+  background-size: cover;
+  height: 100%;
+  margin: 0px;
+  padding: 20vh 0 20vh 0;
+  background-image: url("./../../public/images/about-bg.jpg");
+}
+
+/*-----------------------------------------------------------*/
+body {
+  font-family: monospace;
+}
+
+.About_container {
+  border-top-left-radius: 37px 140px;
+  border-top-right-radius: 23px 130px;
+  border-bottom-left-radius: 110px 19px;
+  border-bottom-right-radius: 120px 24px;
+
+  display: block;
+  position: relative;
+  border: solid 3px transparent;
+  padding: 40px 60px;
+  width: 80%;
+  margin: auto;
+  font-size: 17px;
+  line-height: 28px;
+  transform: rotate(-1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+  transition: all 0.13s ease-in;
+  background-color: #f8f4fb;
+}
+
+/* .About_container:hover {
+  /* position: relative; */
+/* transform: translateY(-10px) rotate(1deg);
+  box-shadow: 3px 15px 8px -10px rgba(0, 0, 0, 0.3);
+} */
+.About_container:hover .border {
+  transform: translateY(4px) rotate(-5deg);
+}
+
+.border {
+  position: absolute;
+  transition: all 0.13s ease-in;
+}
+
+.border:before,
+.border:after {
+  color: #515d9c;
+  font-size: 15px;
+  position: absolute;
+}
