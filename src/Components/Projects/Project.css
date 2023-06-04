@@ -3,7 +3,7 @@ html {
   background-color: #c8b2d6;
 }
 .proj_con {
-  background-image: url("./../../public/images/backgproj.webp");
+  background-image: url("./../../../public/images/backgproj.webp");
   background-repeat: no-repeat;
 }
 .projHead {
@@ -58,7 +58,7 @@ html {
 }
 
 .proj-image-box {
-  background-image: url("./../../public/images/about-bg.jpg");
+  background-image: url("./../../../public/images/about-bg.jpg");
   padding: 3%;
   position: relative;
   margin: auto;

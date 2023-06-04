@@ -1,10 +1,10 @@
 import React from "react";
-import Name from "./Name/Name";
-import About from "./About/About";
-import Project from "./Projects/Project";
-import Footer from "./Footer/Footer";
-import Navbar from "./Navbar/Navbar";
-import ContactPage from "./Contact/ContactPage";
+import Name from "./Components/Name/Name";
+import About from "./Components/About/About";
+import Project from "./Components/Projects/Project";
+import Footer from "./Components/Footer/Footer";
+import Navbar from "./Components/Navbar/Navbar";
+import ContactPage from "./Components/Contact/ContactPage";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {

@@ -10,7 +10,7 @@
 }
 
 .resume_text a {
-  background-image: url("./../../public/images/text-bg.png");
+  background-image: url("./../../../public/images/text-bg.png");
   background-repeat: repeat-y;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

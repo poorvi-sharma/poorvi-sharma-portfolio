@@ -9,7 +9,7 @@ html {
   height: 100%;
   margin: 0px;
   padding: 20vh 0 20vh 0;
-  background-image: url("./../../public/images/about-bg.jpg");
+  background-image: url("./../../../public/images/about-bg.jpg");
 }
 
 /*-----------------------------------------------------------*/
