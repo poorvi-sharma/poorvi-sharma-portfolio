@@ -57,3 +57,14 @@ body {
   font-size: 15px;
   position: absolute;
 }
+@media (max-width: 760px) {
+  .About_container {
+    width: 80%;
+    font-size: 12px;
+    line-height: 18px;
+    padding: 30px;
+  }
+  .IntroText h4 {
+    font-size: 13px;
+  }
+}

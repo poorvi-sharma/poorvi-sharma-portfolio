@@ -35,3 +35,12 @@
 .resume_text:hover {
   scale: 0.9;
 }
+
+@media (max-width: 768px) {
+  .resume_div {
+    height: 20vh;
+  }
+  .resume_text a {
+    font-size: 16px;
+  }
+}

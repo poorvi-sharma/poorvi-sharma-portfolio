@@ -12,10 +12,22 @@ export default function App() {
     <>
       <Navbar />
       <Routes>
-        <Route exact path="/" element={<Name />} />
-        <Route exact path="/about" element={<About />} />
-        <Route exact path="/Project" element={<Project />} />
-        <Route exact path="/ContactPage" element={<ContactPage />} />
+        <Route exact path="/poorvi-sharma-portfolio/" element={<Name />} />
+        <Route
+          exact
+          path="/poorvi-sharma-portfolio/about"
+          element={<About />}
+        />
+        <Route
+          exact
+          path="/poorvi-sharma-portfolio/Project"
+          element={<Project />}
+        />
+        <Route
+          exact
+          path="/poorvi-sharma-portfolio/ContactPage"
+          element={<ContactPage />}
+        />
       </Routes>
       <Footer />
     </>

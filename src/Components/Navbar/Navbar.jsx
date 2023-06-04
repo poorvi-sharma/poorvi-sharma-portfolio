@@ -12,7 +12,7 @@ function Navbar() {
 
   return (
     <nav className="navbar navbar-expand-lg p-3 navbar-light navbardiv">
-      <Link className="navbar-brand " exact to="/">
+      <Link className="navbar-brand " exact to="/poorvi-sharma-portfolio/">
         <span className="navtitle">Poorvi Sharma</span>
       </Link>
       <button className="navbar-toggler" type="button" onClick={toggleNavbar}>
@@ -25,17 +25,29 @@ function Navbar() {
       >
         <ul className="navbar-nav mr-auto ull ">
           <li className="nav-item">
-            <NavLink className="nav-link col1" exact to="/About">
+            <NavLink
+              className="nav-link col1"
+              exact
+              to="/poorvi-sharma-portfolio/About"
+            >
               <p className="hove">About</p>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link col1" exact to="/Project">
+            <NavLink
+              className="nav-link col1"
+              exact
+              to="/poorvi-sharma-portfolio/Project"
+            >
               <p className="hove">Projects</p>
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink className="nav-link col1" exact to="/ContactPage">
+            <NavLink
+              className="nav-link col1"
+              exact
+              to="/poorvi-sharma-portfolio/ContactPage"
+            >
               <p className="hove">Contact</p>
             </NavLink>
           </li>

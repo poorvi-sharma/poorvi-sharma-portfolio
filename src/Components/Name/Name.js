@@ -29,25 +29,27 @@ export default function Name() {
             <div className={`front desc_div ${Class ? "front_flip" : ""}`}>
               <span>Hello, I am Poorvi Sharma</span>
               {/* { */}
-              <TypeWriterEffect
-                startDelay={1000}
-                cursorColor="#EEE8F1"
-                multiText={[
-                  "a student...",
-                  "front-end developer...",
-                  "Welcome to my portfolio website! I'm a passionate Front-End Developer and final-year MCA student.",
-                ]}
-                multiTextDelay={300}
-                typeSpeed={50}
-                skipAddStyles={false}
-                textStyle={{
-                  fontFamily: "Special Elite,cursive",
-                  fontSize: "4vh",
-                  textAlign: "center",
-                  color: "black",
-                }}
-              />
-              {/* } */}
+              <div className="hide_mobile">
+                <TypeWriterEffect
+                  startDelay={1000}
+                  cursorColor="#EEE8F1"
+                  multiText={[
+                    "a student...",
+                    "front-end developer...",
+                    "Welcome to my portfolio website! I'm a passionate Front-End Developer and final-year MCA student.",
+                  ]}
+                  multiTextDelay={300}
+                  typeSpeed={50}
+                  skipAddStyles={false}
+                  textStyle={{
+                    fontFamily: "Special Elite,cursive",
+                    fontSize: "4vh",
+                    textAlign: "center",
+                    color: "black",
+                  }}
+                />
+                {/* } */}
+              </div>
             </div>
             <div
               className={`desc_div back ${Class ? "back_flip" : ""}`}
@@ -62,7 +64,7 @@ export default function Name() {
               departing, please{" "}
               <Link
                 className="explore"
-                to="/About"
+                to="/poorvi-sharma-portfolio/about"
                 onMouseEnter={(event) => event.preventDefault()}
               >
                 explore.
